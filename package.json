@@ -1,0 +1,34 @@
+{
+  "name": "html-bricks-plugin-babel",
+  "version": "0.0.1",
+  "description": "Babel support for HTML-bricks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavgb/html-bricks-plugin-babel.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "html-bricks",
+    "static",
+    "compiler",
+    "cool"
+  ],
+  "author": "Gustav Burchardt <gustavburchardt@gmail.com> (https://gustavgb.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavgb/html-bricks-plugin-babel/issues"
+  },
+  "homepage": "https://github.com/gustavgb/html-bricks-plugin-babel#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "peerDependencies": {
+    "html-bricks": "0.x"
+  }
+}
