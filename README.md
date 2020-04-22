@@ -24,7 +24,7 @@ Then include the plugin in your config
 
 ## Usage
 
-All `.js` files will be compiled using `@babel/preset-env`. If you want to use a different preset, override the transpiler settings using a `.babelrc` file in your project directory. The path to each file is passed to the compiler, so you can use multiple `.babelrc` files to have different settings for different sections of your project. See [Babel's own documentation on this](https://babeljs.io/docs/en/config-files#file-relative-configuration) for more info.
+All `.js` files will be compiled using `@babel/preset-env`. If you want to use a different preset, override the transpiler settings using a `.babelrc` file in your project directory. The path to each file is passed to the Babel transpiler, so you can use multiple `.babelrc` files to have different settings for different sections of your project. See [Babel's own documentation on this](https://babeljs.io/docs/en/config-files#file-relative-configuration) for more info.
 
 ### Example from Babels website
 
